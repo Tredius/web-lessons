@@ -4,43 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Семантичні теги HTML</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Звіт з дисципліни "Web-дизайн"</title>
 </head>
 
-<body>
-            <img src="img/my_photo_ed.png" title="Моє фото" alt="Моє фото" height=200px>
-            <h1>Мартиненко Олексій Володимирович</h1>
-            <h2>Звіт з дисципліни "Web-дизайн"</h2>
+<body class="body">
+    <header class="header">
+        <div><img src="img/my_photo_ed.png" title="Моє фото" alt="Моє фото" height=160px></div>
+        <h1>Мартиненко Олексій Володимирович</h1>
+
+        <h2>Звіт з дисципліни "Web-дизайн"</h2>
+    </header>
     <hr>
-        <article>
-                <h3>Про мене</h3>
-                <p>Мене звати Мартиненко Олексій, я народився 31 березня у м. Київ.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam libero tempora numquam nostrum at voluptatem delectus qui, cupiditate exercitationem earum est! Nostrum laborum rerum minus ipsum perferendis assumenda fuga alias.</p>
+    <main class="content">
+        <article class="article">
+            <h3 class="article__title">Про мене</h3>
+            <p class="article__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Numquam consequuntur itaque at, nemo blanditiis dolores dolorum quidem rem sed molestias provident, 
+                porro fugit mollitia, omnis doloremque natus ex asperiores recusandae!
+            </p>
         </article>
-    <hr>
-        <article>
-                <h3>Лабораторні роботи:</h3>
-                <ul>
-                    <li><a href="https://github.com/Tredius/web-lessons/blob/master/PIB.txt">Налаштування Git та GitHub</a></li>
-                    <li><a href="https://github.com/Tredius/web-lessons/blob/master/01/index.html">Створення найпростішого html документу(GitHub) |</a>
-                    <a href="http://htmlpreview.github.io/?https://github.com/Tredius/web-lessons/blob/master/01/index.html"> Html сторінка</a>
-                    </li>
-                    <li><a href="https://github.com/Tredius/web-lessons/blob/master/02/index.html">Використання основних html тегів |</a> 
-                    <a href="http://htmlpreview.github.io/?https://github.com/Tredius/web-lessons/blob/master/02/index.html"> Html сторінка</a>
-                    </li>
-                </ul>
+        <hr>
+        <article class="article">
+            <h3 class="article__title">Конспект за темами:</h3>
+            <ul class="article__text">
+                <li><abbr class="abbr__text" title="HyperText Markup Language">HTML</abbr></li>
+                <li><abbr class="abbr__text" title="Cascading Style Sheets">CSS</abbr></li>
+                <li><abbr class="abbr__text"
+                        title="Bootstrap - вільний набір інструментів для створення сайтів і веб-додатків.">Bootstrap</abbr>
+                </li>
+                <li><abbr class="abbr__text"
+                        title="JavaScript - мультіпарадігменний мову програмування.">JavaScript</abbr></li>
+            </ul>
         </article>
+        <hr>
+        <article class="article">
+            <h3 class="article__title">Лабораторні роботи:</h3>
+            <ol class="article__text">
+                <li><a class="lr_text"
+                        href="https://github.com/Tredius/web-lessons/blob/master/PIB.txt">Налаштування Git та
+                        GitHub</a></li>
+                <li><a class="lr_text" href="./01/index.html">Створення найпростішого HTML документу.</a><a
+                        class="lr_text"
+                        href="https://github.com/Tredius/web-lessons/blob/master/01/index.html">Код</a></li>
+                <li><a class="lr_text" href="./02/index.html">Використання основних html тегів.</a><a
+                        class="lr_text"
+                        href="https://github.com/Tredius/web-lessons/blob/master/02/index.html">Код</a></li>
+            </ol>
+        </article>
+    </main>
     <hr>
-    <article>
-            <h3>Мої контакти:</h3>
-        <footer>
-                <ol>
-                    <li><a href="tel:+380633519273">Позвонити на мій номер телефону: +380633519273</a></li>
-                    <li><a href="mailto:martynenko.alexei@kmrf.kiev.ua">Написати на мою пошту: martynenko.alexei@kmrf.kiev.ua</a></li>
-                    <li><a href="https://github.com/Tredius/web-lessons">Мій репозиторій на GitHub</a></li>
-                </ol>
-        </footer>
-    </article>
+    <footer class="footer">
+        <articler>
+            <h3 class="footer__title">Контакти</h3>
+            <ul>
+                <li><a class="footer__text" href="tel:+380633519273">+380 63 351 92 73</a></li>
+                <li><a class="footer__text"
+                        href="mailto:martynenko.alexei@kmrf.kiev.ua">martynenko.alexei@kmrf.kiev.ua</a></li>
+                <li><a class="footer__text" href="https://github.com/Tredius/web-lessons">Мій репозиторій на
+                        GitHub</a></li>
+            </ul>
+        </articler>
+    </footer>
+
+    <p class="copyright">
+        Copyright &copy Мартиненко О.В. 2021
+    </p>
 </body>
 
 </html>

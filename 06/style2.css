@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(15, 32, 37);
+  text-align: center;
+  color: aliceblue;
+  font: bold 110% serif;
+}
+form {
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.sign_up {
+  float: left;
+  box-sizing: border-box;
+  border: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 50%;
+  background-color: rgb(131, 190, 141);
+  color: white;
+}
+.log_in {
+  box-sizing: border-box;
+  border: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 50%;
+  background-color: rgb(84, 88, 84);
+  color: darkgrey;
+}
+.first_name {
+  margin-top: 10px;
+  position: absolute;
+  top: 85px;
+  left: 0px;
+  background-color: rgb(15, 32, 37);
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 45%;
+}
+.last_name {
+  margin-top: 10px;
+  position: absolute;
+  top: 85px;
+  left: 165px;
+  background-color: rgb(15, 32, 37);
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 45%;
+}
+.email {
+  margin-top: 10px;
+  position: absolute;
+  top: 135px;
+  left: 0px;
+  background-color: rgb(15, 32, 37);
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.password {
+  margin-top: 10px;
+  position: absolute;
+  top: 185px;
+  left: 0px;
+  background-color: rgb(15, 32, 37);
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 7px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.submit {
+  margin-top: 10px;
+  color: white;
+  font: bold 100% serif;
+  position: absolute;
+  top: 235px;
+  left: 0px;
+  background-color: rgb(131, 190, 141);
+  box-sizing: border-box;
+  border: 1px solid white;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}

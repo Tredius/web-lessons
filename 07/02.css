@@ -1,0 +1,16 @@
+div {
+  background-color: rgb(240, 239, 239);
+  display: flex;
+}
+.image {
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 50px;
+  padding: 5px;
+}
+hr {
+  margin: 10px;
+}
+.text {
+  flex-direction: column;
+}

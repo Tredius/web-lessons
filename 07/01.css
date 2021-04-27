@@ -1,17 +1,15 @@
 div {
-  background-color: rgb(25, 54, 116);
+  background-color: rgb(32, 49, 88);
   display: flex;
   justify-content: space-around;
 }
 ol {
   background-color: rgb(68, 84, 117);
   padding: 10px;
-}
-button {
-  color: rgb(214, 214, 214);
-  background-color: rgb(68, 84, 117);
+  color: rgb(255, 255, 255);
   border: none;
 }
+
 .Text1 {
   color: rgb(196, 196, 196);
 }

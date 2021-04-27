@@ -1,0 +1,26 @@
+div {
+  background-color: rgb(25, 54, 116);
+  display: flex;
+  justify-content: space-around;
+}
+ol {
+  background-color: rgb(68, 84, 117);
+  padding: 10px;
+}
+button {
+  color: rgb(214, 214, 214);
+  background-color: rgb(68, 84, 117);
+  border: none;
+}
+.Text1 {
+  color: rgb(196, 196, 196);
+}
+.Text2 {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  position: absolute;
+  left: 88.5%;
+  top: 1%;
+}

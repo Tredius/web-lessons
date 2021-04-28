@@ -3,13 +3,16 @@ div {
   display: flex;
   justify-content: space-around;
 }
-ol {
+li {
+  list-style-type: none;
   background-color: rgb(68, 84, 117);
   padding: 10px;
   color: rgb(255, 255, 255);
   border: none;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 40px;
 }
-
 .Text1 {
   color: rgb(196, 196, 196);
 }
@@ -19,6 +22,6 @@ ol {
   font-style: italic;
   font-size: xx-large;
   position: absolute;
-  left: 88.5%;
-  top: 1%;
+  left: 88%;
+  top: 0.5%;
 }

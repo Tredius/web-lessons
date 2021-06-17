@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+.div {
+    background-color: lightgray;
+    width: 319px;
+    border-radius: 10px;
+}
+.caption {
+    color: orange;
+  }
+tr {
+    text-align: center;
+    color: gray;
+}
+.borders th {
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+th {
+    padding: 0px;
+    color: gray;
+}

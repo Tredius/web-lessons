@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js test</title>
+</head>
+
+<body>
+  <script>
+  let first_num;
+ do{
+  first_num = prompt("Введіть 1-ше число");
+  if(first_num == null){
+   process.exit()
+   //break;
+  }
+  //console.log(typeof(first_num));
+ }while(isNaN(first_num) || first_num == '');
+ let op
+ do {
+  op = prompt("Введіть операцію(* - множення, /- ділення, + - додавання, - - віднімання)");
+  if(op == null){
+   process.exit()
+   //break;
+  }
+ }while(op != '*' && op != '/' && op != '+' && op != '-');
+ let second_num;
+ do{
+  second_num = prompt("Введіть 2-ге число");
+  if(second_num == null){
+   process.exit()
+   //break;
+  }
+ }while(isNaN(second_num)  || second_num == '');
+ let plus = (first_num, second_num) => alert(+first_num + +second_num);
+ let minus = (first_num, second_num) => alert(+first_num - +second_num);
+ let umnoz = (first_num, second_num) => alert(+first_num * +second_num);
+ let dil = function(first_num, second_num){
+  if(+second_num != 0){
+    alert(+first_num / +second_num);
+   }
+   else{
+    alert("На 0 ділить не можно");
+   }
+ }
+ switch(op){
+  case '+':
+   plus(first_num, second_num);
+   break;
+  case '-':
+   minus(first_num, second_num);
+   break;
+  case '*':
+   umnoz(first_num, second_num);
+   break;
+  case '/':
+   dil(first_num, second_num);
+   break;
+  default: alert("Ви ввели некоректну дію");
+ }
+</script>
+</body>
+</html>

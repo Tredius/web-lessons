@@ -36,14 +36,21 @@
 }
 
 .article {
-  height: 500px;
+  height: 300px;
   background-color: #fafbfc;
   margin-bottom: 35px;
   padding-right: 120px;
   padding-left: 120px;
   padding-top: 25px;
 }
-
+.lr_article{
+  height: 550px;
+  background-color: #fafbfc;
+  margin-bottom: 35px;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 25px;
+}
 .article__title {
   font-size: 30px;
   line-height: 35px;

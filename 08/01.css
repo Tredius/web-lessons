@@ -1,23 +1,23 @@
 * {
     margin: 0;
 }
-.div {
-    background-color: lightgray;
-    width: 319px;
+div {
+    background-color: rgb(226, 223, 223);
+    width: 355px;
     border-radius: 10px;
 }
-.caption {
-    color: orange;
-  }
-tr {
+table{
+    border-collapse: collapse;
+    color: gray;
     text-align: center;
-    color: gray;
 }
+caption {
+    color: rgb(255, 102, 0);
+    font-size: 20px;
+    padding: 5px;
+  }
 .borders th {
-    border-top: 2px solid orange;
-    border-bottom: 2px solid orange;
-}
-th {
-    padding: 0px;
-    color: gray;
+    padding: 5px;
+    border-top: 2px solid rgb(255, 102, 0);;
+    border-bottom: 2px solid rgb(255, 102, 0);;
 }
